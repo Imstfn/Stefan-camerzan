@@ -1,0 +1,16 @@
+
+h1 {
+    color: brown;
+    text-decoration: line-through;
+}
+
+.ello {
+    color: wheat;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+#site-title {
+    font-size: 24px; /* Example style for the element with the "site-title" ID */
+}
