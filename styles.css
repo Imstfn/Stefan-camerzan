@@ -14,5 +14,23 @@ h1 {
 
 
 #site-title {
-    font-size: 24px; /* Example style for the element with the "site-title" ID */
+    font-size: 24px;
+    
 }
+.nav-bar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        .content {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
