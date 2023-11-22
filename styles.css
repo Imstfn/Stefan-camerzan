@@ -1,78 +1,88 @@
+/* Animation for background color cycle */
 @keyframes colorCycle {
-            from { background-color: pink; }
-            to { background-color: blue; }
-        }
+    from { background-color: pink; }
+    to { background-color: blue; }
+}
+
+/* Global styles */
 body {
+    font-family: Arial, sans-serif;
     background-color: pink;
     animation: colorCycle 5s infinite alternate;
 }
+
+/* Styling for the main title */
 h1 {
     color: brown;
     text-decoration: line-through;
 }
 
+/* Styling for specific elements with class 'ello' */
 .ello {
     color: wheat;
     text-align: center;
     background-color: aqua;
 }
 
-
+/* Styling for the site title */
 #site-title {
     font-size: 24px;
-    
 }
+
+/* Styling for the navigation bar */
 .nav-bar {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-        }
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
 
-        .content {
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
+/* Styling for the main content area */
+.content {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
 
-        .footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-body {
-            font-family: Arial, sans-serif;
-        }
+/* Styling for the footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
-        
-        .nav-bar a:hover {
-            color: red; 
-        }
+/* Navigation bar link hover effect */
+.nav-bar a:hover {
+    color: red; 
+}
 
-        .content h2:first-child {
-            color: green; 
-        }
+/* Specific styling for the first h2 in the content */
+.content h2:first-child {
+    color: green; 
+}
 
-        .footer p:nth-child(2n) {
-            background-color: #f0f0f0; 
-        }
+/* Styling for even paragraphs in the footer */
+.footer p:nth-child(2n) {
+    background-color: #f0f0f0; 
+}
 
-        li:only-child {
-            font-style: italic; 
-        }
+/* Styling for list items that are only children */
+li:only-child {
+    font-style: italic; 
+}
 
-        /* Pseudo-elements */
-        #site-title::before {
-            content: '🚀'; 
-        }
+/* Pseudo-elements for additional content */
+#site-title::before {
+    content: '🚀'; 
+}
 
-        .ello::after {
-            content: ' 🎉'; 
-        }
+.ello::after {
+    content: ' 🎉'; 
+}
 
-        .footer::before {
-            content: 'Footer: '; 
-        }
+.footer::before {
+    content: 'Footer: '; 
+}
 
-        table::after {
-            content: '📊'; 
-        }
+table::after {
+    content: '📊'; 
+}
